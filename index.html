@@ -14,14 +14,12 @@
 
     <main class="quiz-container">
 
-        <!-- Écran d'acceuil -->
         <section id="welcome-screen" class="card active">
             <h2>Bienvenue au Quiz !</h2>
             <p>Vous aurez 5 questions pour évaluer vos compétences. Prêt à relever le défi ?</p>
             <button id="start-btn" class="btn btn-primary">Commencer le Quiz</button>
         </section>
         
-        <!-- Écran de Quiz -->
         <section id="quiz-screen" class="card hidden" aria-live="polite">
             <div class="progress-container">
                 <div class="progress-bar" id="progress-bar"></div>
@@ -35,16 +33,13 @@
             <h2 id="question-text" class="question-text">Intitulé de la question</h2>
 
             <div id="options-container" class="options-grid">
-                <!-- Les boutons d'options seront générés dynamiquement par JS -->
             </div>
 
-            <!-- Feedback Visuel -->
             <div id="feedback" class="feedback hidden" aria-live="assertive"></div>
 
             <button id="next-btn" class="btn btn-secondary hidden">Question suivante</button>
         </section>
 
-        <!-- Écran de Résultat Final -->
         <section id="result-screen" class="card hidden">
             <h2>Résultat Final</h2>
             <div class="score-circle">
